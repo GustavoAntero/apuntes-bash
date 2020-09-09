@@ -11,9 +11,4 @@
 
 ## Disk
 * [dd](dd.md)
-
-```graphviz
-digraph {
-    a -> b
-}
-```
+* [mkfs](mkfs.md)
