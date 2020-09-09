@@ -1,4 +1,12 @@
-# Transformar markdown a PDF
+# Pandoc
+
+## Dependencias archivo .deb (apt-get install)
+
+* texlive
+* texlive-latex-extra
+* librsvg2-bin
+
+## Transformar markdown a PDF
 
 ```bash
 pandoc --lua-filter=diagram.lua --toc \
@@ -6,7 +14,7 @@ pandoc --lua-filter=diagram.lua --toc \
 --highlight-style haddock
 ```
 
-# Transformar markdown a REVEALJS
+## Transformar markdown a REVEALJS
 
 ```bash
 pandoc --lua-filter=diagram.lua --toc \
